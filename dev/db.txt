@@ -1,0 +1,34 @@
+{
+  "_id": "<telegram_user_id>", // Unique identifier for each user
+  "username": "<telegram_username>",
+  "registry": {
+    "isReg": <boolean>,
+    "regOn": "<ISO_date>",
+  },
+  "membership": {
+    "status": "<active|inactive>"
+    "planName": "<newbie|iron|gold|diamond|netherite|bedrock>" //field for granular plans,
+    "startedOn": "<ISO_date>",
+    "endsOn": "<ISO_date>",
+  },
+  "usage": {
+    "imageGeneration": {
+      "gImages": <number>, // Generated images
+      "tImages": <number>, // Transformed portraits
+      "cImages": <number>, // Clothes changed
+    },
+    "aiResponse": {
+      "questionsAsked": <number>,
+      "codingProblemsSolved": <number>,
+    }
+  },
+  "settings": { // User-specific customizations
+    "language": "<default|user_preferred_language>",
+    "notifications": {
+      "onSuccess": <boolean>,
+      "onError": <boolean>,
+      "onMembershipExpiration": <boolean>,
+    }
+  },
+  "lastActive": "<ISO_date>", // Last activity timestamp
+}

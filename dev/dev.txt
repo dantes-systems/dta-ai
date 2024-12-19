@@ -1,0 +1,24 @@
+help me build a telegram bot using typescript.
+
+name of the bot: "DTA AI"
+name of the organisation: "Dantes Bots"
+support group name: "DTA Support"
+
+bot features:
+- Image Generator
+  - it can generate images from the prompts or description given by the users.
+  - it can transform users' potrait photos into beautiful ai generated image of the potrait.
+  - it can change clothes of a person in a photograph to any clothes as wanted described by the user.
+
+- AI response:
+  - it can give the best response for the questions asked by the user, using chatgpt and other ai tools.
+  - it can solve coding problems.
+
+- Database Storage
+  - it will store a session database using mongodb atlas.
+  - use database definition as given previously.
+  - suggest and update more efficient methods for database definition.
+
+this bot is altogether based on AI themed commands and responsive design.
+
+suggest and engrave some creative features/commands etc., that this bot can perform for the users

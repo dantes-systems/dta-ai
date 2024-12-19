@@ -1,0 +1,71 @@
+./
+|- assets/
+| |- images/
+| |- gifs/
+|
+|- public/
+| |- index.html
+| |- css/
+| |- js/
+| |- api/
+| |- ...
+|
+|- src/
+| |- commands/
+| | |- ai/
+| | | |- generateImage.ts
+| | | |- transformImage.ts
+| | | |- changeClothes.ts
+| | |- utility/
+| | | |- stats.ts
+| | | |- membership.ts
+| | |- ...
+| |
+| |- lib/
+| | |- Mongo/
+| | | |- Models/
+| | | | |- User.ts
+| | | | |- Session.ts
+| | |- TGClient.ts
+| | |- Server.ts
+| | |- AIUtils.ts
+| | |- ImageUtils.ts
+| |
+| |- handlers/
+| | |- messageHandler.ts
+| | |- commandHandler.ts 
+| | |- errorHandler.ts
+| | |- ...
+| |
+| |- middlewares/
+| | |- authMiddleware.ts
+| | |- rateLimiter.ts
+| |
+| |- typings/
+| | |- index.d.ts
+| | |- bot.d.ts
+| |
+| |- index.ts
+| |- config.ts
+|
+|- tests/
+| |- commands/
+| |- handlers/
+| |- lib/
+|
+|- logs/
+| |- error.log
+| |- usage.log
+|
+|- scripts/
+| |- migrateDB.ts
+| |- seedDB.ts
+| |- ...
+|
+|- .env
+|- .gitignore
+|- prettier.config.js
+|- tsconfig.json
+|- package.json
+
+
